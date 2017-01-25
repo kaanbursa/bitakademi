@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="900px" viewBox="0 0 1200 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>sql</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sql">
+            <rect id="Rectangle-14" fill="#86CB92" x="1" y="0" width="1199" height="900"></rect>
+            <g id="Group" transform="translate(414.000000, 222.000000)">
+                <rect id="Rectangle-15" fill="#FFFFFF" x="3" y="26.5" width="367" height="383.5" rx="21"></rect>
+                <ellipse id="Oval-5" stroke="#86CB92" stroke-width="5" fill="#FFFFFF" cx="186.5" cy="278.5" rx="186.5" ry="50.5"></ellipse>
+                <ellipse id="Oval-5-Copy-3" stroke="#86CB92" stroke-width="5" fill="#FFFFFF" cx="186.75" cy="387.5" rx="186.75" ry="50.5"></ellipse>
+                <ellipse id="Oval-5-Copy" stroke="#86CB92" stroke-width="5" fill="#FFFFFF" cx="186.75" cy="168.5" rx="185.75" ry="50.5"></ellipse>
+                <rect id="Rectangle" fill="#FFFFFF" x="3" y="109" width="367" height="58"></rect>
+                <rect id="Rectangle-Copy" fill="#FFFFFF" x="3" y="225" width="367" height="46"></rect>
+                <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="3" y="334" width="367" height="55"></rect>
+                <ellipse id="Oval-5-Copy-2" stroke="#86CB92" stroke-width="5" fill="#FFFFFF" cx="185.75" cy="50.5" rx="185.75" ry="50.5"></ellipse>
+                <ellipse id="Oval-6" fill="#86CB92" cx="40" cy="133" rx="15" ry="15"></ellipse>
+                <ellipse id="Oval-6-Copy" fill="#86CB92" cx="40" cy="255" rx="15" ry="15"></ellipse>
+                <ellipse id="Oval-6-Copy-2" fill="#86CB92" cx="40" cy="373" rx="15" ry="15"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

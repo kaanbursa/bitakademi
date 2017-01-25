@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bit Akademi</title>
+
+        <!--MetaTags-->
+        <meta  http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name "viewport" content="initial-scale-1 maximum-scale-width" />
+<meta name "viewport" content="width=device-width" />
         <!--Link for css-->
         <link rel="stylesheet" href="css/lib/material.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -13,6 +17,9 @@
         <script src="js/video.js"></script>
         <script src="js/lib/material.js"></script>
 
+        <title>Bit Akademi</title>
+        <meta name="description" content="Bit Akademi kodlama öğrenme websitesi">
+
     </head>
     <body>
 
@@ -20,31 +27,33 @@
 <!-- first of the main with video cover-->
     <div class="video-container">
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Bit Akademi</span>
+      <a id="navHead" href="main.html"<span class="mdl-layout-title">Bit Akademi</span></a>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link signup" href="">Kayıt Ol</a>
-        <a class="mdl-navigation__link" href="">Giriş Yap</a>
+        <a id="kayıt" class="mdl-navigation__link signup" href="kayitOl.html">Kayıt Ol</a>
+        <a id="kayıt" class="mdl-navigation__link " href="girişYap.html">Giriş Yap</a>
        
       </nav>
     </div>
   </header>
-   
+   </div>
     <div class="titleContainer">
     <h1 class= "pageHeader"> Yarının İşlerini Yarat!</h1>
-    
-  
-
-        
-        </div>
+    <h1 class="movingText">
+    <
+    <span
+     class="txt-rotate"
+     data-period="1500"
+     data-rotate='[ "Websitesi", "Veri Tabani", "Mobil Uygulama", "Geleceği" ]'></span> geliştirmek istiyorum >
+    </h1>
 
     </div>
-    
+
         <video autoplay loop class="fillWidth">
             <source src="assets/MP4/lovecoding.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
             <source src="assets/MP4/lovecoding.mp4" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
@@ -64,17 +73,102 @@
         
     </div>
     <!-- third page of the main-->
-    <div class="mdl-grid thridMain">
-        <div class="col-md-6"><img class="coderTable" src="assets/Snapshots/codersTable.svg"></div>
-        <div class="col-md-6"><p class="secondHeader"> ~Kendi başına programlama öğren! </p><br>
-        <p class="subWriting"> Yeni programla dilleri öğren. Kendi websiteni yap, programlamanın temellerini öğren. Geleceğin teknolojilerini yaratanlardan ol.</p>
-        <p class="secondHeader"> ~Sana ait bir calışma düzeni yarat </p><br>
-        <p class="subWriting"> İstediğin saatte istediğin yerde yeteneklerini geliştir </p>
+    <h1 id="thirdHead" class="pageHeader"> Dersler </h1>
+    <div class= "mdl-grid thirdMain">
+
+        <div class="mdl-cell mdl-cell--3-col ">        
+            <div class="demo-card-square center mdl-card mdl-shadow--2dp ">
+                <div class="mdl-card__title mdl-card--expand">
+                <h2 class="mdl-card__title-text">Website'si Yarat!</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                HTML/CSS ile websitesi yaratmanin temellerini öğren.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Dersi İncele
+            </a>
+        </div>
+        </div>
+        
+            
+        
         </div>
     
-        
+        <div class="mdl-cell mdl-cell--3-col">  
+            <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                <div id="sql" class="mdl-card__title mdl-card--expand">
+                <h2 class="mdl-card__title-text">SQL Ögren!</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                Veri yaratmayi ve onu kullanmayı en basit şekilde öğren.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Dersi İncele
+            </a>
+            </div>
+            </div>
+        </div>
     </div>
-   
+   <!--footer-->
+   <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Özellikler</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Koşullar</a></li>
+        <li><a href="#">Partnerler</a></li>
+        <li><a href="#">Güncellemeler</a></li>
+        <li><a href="#">Bizimle Çalış</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Detaylar</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Özellikler</a></li>
+        <li><a href="#">Araçlar</a></li>
+        <li><a href="#">Kaynaklar</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Teknoloji</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Nasıl Çalışıyor</a></li>
+        <li><a href="#">Kullanım</a></li>
+        <li><a href="#">Ürünler</a></li>
+        <li><a href="#">Sözleşmeler</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Soru & Cevap</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Sorular</a></li>
+        <li><a href="#">Cevaplar</a></li>
+        <li><a href="#">İletişime Geç!</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="mdl-mega-footer__bottom-section">
+    <div class="mdl-logo">Bit Akademi</div>
+    <ul class="mdl-mega-footer__link-list">
+      <li><a href="#">Yardım</a></li>
+      <li><a href="#">Gizlilik & Koşullar</a></li>
+    </ul>
+  </div>
+
+</footer>
 
     </body>
 </html>

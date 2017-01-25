@@ -1,13 +1,4 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 14px;
-    overflow: hidden;
-    height: 80px;
-    
-}
+
 body {
     display: block;
     margin: 0px;
@@ -22,47 +13,56 @@ li.leftAlign {
    
 }
 
-li {
-	float: right;
+a#navHead:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
 }
 
-li a {
+.movingText {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.a#kayıt {
 	font-family: 'Roboto', sans-serif;
     font-weight: 100;
+
     display: block;
     color: white;
-    font-size: 24px;
-    text-align: center;
-    padding: 2px 20px;
+    font-size: 70px;
+    text-align: center; 
     text-decoration: none;
 }
 
 a.signup {
 	border-style: solid;
 	border-color: white;	
-	background-color: rgba(155,196,188,.2);
-    height: 50px;
+	background-color: rgba(255,255,255,.2);
+    height: 35px;
+    line-height: 35px !important;
+    border-radius: 2px !important;
     vertical-align: center; 
 }
 
 a.signup:hover {
-    background-color: rgba(155,196,188,.4);
+    background-color: rgba(255,255,255,.4);
 }
 
 
-li a:hover {
-    font-family: 'Roboto', sans-serif;
-
+.titleContainer{
+    padding-top: 20%;
+    height: 100px;
 }
-
-
-
 
 .pageHeader {
-	font-size: 50px;
+	font-size: 60px;
 	text-align: center;
-    padding-top: 120px;
-    padding-bottom: 40px;
+    padding: 0;
 	color: white;
     font-family: 'Nunito', sans-serif;
     align-items: center;
@@ -70,22 +70,9 @@ li a:hover {
 	
 }
 
-.email-form{
-    margin-left: 400px;
-    width: 60%;
-    height: 45px;
-    border: 2px solid white;
-    background-color: rgba(255,255,255,.8)
-}
 
-.kayitOl{  
-    border-style: solid;
-    border-color: white;    
-    background-color: rgba(155,196,188,.2); 
-    height: 45px;
-    min-width: 100px;
-    color: white;
-}
+
+
 
 .topMain {
 	height: 600px;
@@ -119,6 +106,7 @@ li a:hover {
     z-index: 1 !important;
     
 }
+
 
 .video-container .title-container {
     z-index: 20 !important;
@@ -180,8 +168,115 @@ li a:hover {
     font-family: 'Nunito', sans-serif;
 }
 
+/* third main page */
+
 .thirdMain {
-    background-color: #84A07C;
+    
     height: 600px;
 }
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('/Users/kaanbursa/Desktop/bitakademi/frontend/assets/Snapshots/makeaWebsite.svg') bottom right 15% no-repeat #46B6AC;
+    background-size: 100%;
+}
+.demo-card-square > #sql {
+    color: #fff;
+  background:
+    url('/Users/kaanbursa/Desktop/bitakademi/frontend/assets/Snapshots/sql.svg') bottom right 15% no-repeat #46B6AC;
+    background-size: 100%;
+}
+
+.mdl-card__title-text{
+    padding-left: 20% !important;
+}
+
+#thirdHead {
+    color: #373F47;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* sign up and login pages */
+.signupHeaderTable {
+    height: 600px;
+    background-color: white;
+
+}
+
+#signupHeader {
+    background-color: #1D1E2C;
+}
+
+.signUpandIn{
+    background-color: white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -200px;
+  height: 350px;
+  width: 400px;
+  
+
+}
+
+.kayitButtonlari{
+    width: 190px;
+    margin-top: 10px;
+}
+
+.tableHead{
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #86CB92;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.signupmenu {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
 

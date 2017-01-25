@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="900px" viewBox="0 0 1200 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>makeaWebsite</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="367" height="359" rx="8"></rect>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="367" height="359" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <rect id="path-4" x="213" y="157" width="116" height="82" rx="8"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="116" height="82" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="makeaWebsite">
+            <rect id="Rectangle-14" fill="#86CB92" x="1" y="0" width="1199" height="900"></rect>
+            <g id="Group-3" filter="url(#filter-1)" transform="translate(417.000000, 279.000000)">
+                <use id="Rectangle-4" stroke="#0E0E0E" mask="url(#mask-3)" stroke-width="20" fill="#F7F7F2" xlink:href="#path-2"></use>
+                <rect id="Rectangle-5" fill="#3C4859" x="10" y="9" width="347" height="15"></rect>
+                <rect id="Rectangle-6" fill="#D1CFE2" x="20" y="38" width="328" height="100" rx="8"></rect>
+                <use id="Rectangle-6-Copy-7" stroke="#979797" mask="url(#mask-5)" stroke-width="2" fill="#978897" xlink:href="#path-4"></use>
+                <rect id="Rectangle-6-Copy" fill="#3D518C" x="23" y="223" width="150" height="16" rx="8"></rect>
+                <rect id="Rectangle-6-Copy-4" fill="#3D518C" x="23" y="289" width="150" height="16" rx="8"></rect>
+                <rect id="Rectangle-6-Copy-2" fill="#3D518C" x="21" y="190" width="150" height="16" rx="8"></rect>
+                <rect id="Rectangle-6-Copy-5" fill="#3D518C" x="23" y="256" width="320" height="16" rx="8"></rect>
+                <rect id="Rectangle-6-Copy-3" fill="#3D518C" x="21" y="157" width="150" height="16" rx="8"></rect>
+                <circle id="Oval" fill="#E85465" cx="18.5" cy="16.5" r="2.5"></circle>
+                <circle id="Oval-Copy" fill="#F8E81C" cx="31.5" cy="16.5" r="2.5"></circle>
+                <circle id="Oval-Copy-2" fill="#50E3C2" cx="43.5" cy="16.5" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
