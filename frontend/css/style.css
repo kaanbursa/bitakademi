@@ -17,13 +17,14 @@ a#navHead:-webkit-any-link {
     color: white;
     text-decoration: none;
     cursor: auto;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .movingText {
     text-align: center;
     color: white;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 
@@ -64,7 +65,7 @@ a.signup:hover {
 	text-align: center;
     padding: 0;
 	color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Comfortaa', cursive;
     align-items: center;
     
 	
@@ -172,7 +173,7 @@ a.signup:hover {
 
 .thirdMain {
     
-    height: 600px;
+    height: 500px;
 }
 
 .demo-card-square.mdl-card {
@@ -192,9 +193,13 @@ a.signup:hover {
     background-size: 100%;
 }
 
-.mdl-card__title-text{
-    padding-left: 20% !important;
+.courseName {
+    width: 100%;
+    text-align: center !important;
 }
+
+
+
 
 #thirdHead {
     color: #373F47;
